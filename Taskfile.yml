@@ -1,0 +1,20 @@
+version: "3"
+
+tasks:
+  dev:
+    desc: "Run development server"
+    cmds:
+      - pnpm start
+  build:
+    desc: "Build for production"
+    cmds:
+      - node sync
+      - pnpm build
+  serve:
+    desc: "Run built product"
+    cmds:
+      - pnpm serve
+  setup:
+    desc: "Install dependencies"
+    cmds:
+      - pnpm i
