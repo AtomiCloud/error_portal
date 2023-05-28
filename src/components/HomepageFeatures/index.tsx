@@ -10,32 +10,32 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Full Text Search',
+    Svg: require('@site/static/img/full_text_search.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Error Catalog allows for full text search of all error types in AtomiCloud API ecosystem.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Full Structured',
+    Svg: require('@site/static/img/structure.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Errors are displayed in a fully structued format to exclude any 
+        ambiguity using JSON Schema, allowing for language agnostic errors
+        to be represented by JSON
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Automatically Updated',
+    Svg: require('@site/static/img/updatedx.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        AtomiCloud Error Portal is automatically updated to the latest every
+        hour to display a fully up to date error catalog
       </>
     ),
   },

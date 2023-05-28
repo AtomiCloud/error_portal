@@ -56,7 +56,7 @@ const config = {
       navbar: {
         title: 'AtomiCloud Error Portal',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Atomi Logo',
           src: 'img/logo.svg',
         },
         items: [
