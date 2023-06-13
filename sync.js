@@ -1,8 +1,13 @@
 const sources = require("./sources.json");
 const write = require("write");
+const { rimrafSync} = require('rimraf')
+
+
 
 for(let l in sources) {
     const landscape = sources[l];
+    rimrafSync(`./static/${l}/`);
+    rimrafSync(`./docs/${l}/`);
     for (let p in landscape) {
         const platform = landscape[p];
         for (let s in platform) {
