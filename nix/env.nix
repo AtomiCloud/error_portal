@@ -36,6 +36,7 @@ with pkgs;
 
   ci = [
     git
+    wrangler
   ];
 
   releaser = [

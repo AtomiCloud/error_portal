@@ -33,6 +33,7 @@ let
         webstorm = jetbrains.webstorm;
         prettier = nodePackages.prettier;
         pnpm = nodePackages.pnpm;
+        wrangler = nodePackages.wrangler;
       }
     );
   };
