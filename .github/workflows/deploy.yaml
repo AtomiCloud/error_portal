@@ -7,6 +7,7 @@ on:
 jobs:
   Build:
     name: Build and Deploy ErrorPortal to Cloudflare
+    runs-on: ubuntu-latest
     steps:
       - name: Atomi CI Environment
         uses: kirinnee/atomici-action@v2.3.1
